@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pelatihan Profesional Bersama Master B </title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #fff;
+      color: #222;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: #f5f5f5;
+      z-index: 2;
+      position: relative;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #222;
+      font-weight: 500;
+    }
+
+    .hero {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: url('/galery/2025-06-11.png') no-repeat center center;
+      background-size: cover;
+      height: 90vh;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .mic-icon {
+      position: fixed;
+      top: 100px;
+      left: 40px;
+      width: 50px;
+      height: 50px;
+      background: white;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+      transition: transform 0.2s ease;
+    }
+
+    .mic-icon img {
+      width: 24px;
+      height: 24px;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #f8f8f8;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .testimonials {
+      background: #eef4ff;
+      text-align: center;
+    }
+
+    .testimonial-card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      padding: 40px;
+      background: #222;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mic-icon" id="micIcon">
+    <a href="#hero"><img src="/galery/faviconV2 (2).png" alt="Mic Icon" /></a>
+  </div>
+
+  <header>
+    <div class="logo"><strong>MasterB</strong></div>
+    <nav>
+      <a href="#about">About Us</a>
+      <a href="#products">Products</a>
+      <a href="#testimonials">testimonials</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="hero">
+    <h1>MasterB</h1>
+    <p>Level up your skill is here!! </p>
+  </section>
+
+  <section id="about" class="section">
+    <h2 class="section-title">About Us</h2>
+    <div class="grid">
+      <img src="/galery/2024-02-18.png" alt="City" style="width:100%; border-radius: 8px;">
+      <p>MasterB adalah perusahaan teknologi kreatif yang berfokus pada pengembangan website, aplikasi, branding, serta digital marketing. Didirikan oleh tim yang berpengalaman di bidang IT dan pemasaran digital, MasterB hadir sebagai mitra strategis bagi individu, startup, hingga perusahaan besar yang ingin membangun atau memperkuat eksistensinya secara online.</p>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <h2 class="section-title">Our Services</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg" alt="Custom Software Development">
+        <h3> Pembuatan Website & Aplikasi</h3>
+        <p>Layanan ini mencakup perancangan dan pengembangan website atau aplikasi yang fungsional, cepat, dan menarik secara visual.</p>
+      </div>
+      <div class="card">
+        <img src="https://img.freepik.com/free-vector/cloud-hosting-concept-illustration_114360-709.jpg" alt="Cloud Integration">
+        <h3> Branding & Desain Grafis</h3>
+        <p>Branding adalah proses membangun identitas visual dan citra perusahaan agar mudah dikenali dan diingat oleh pelanggan.</p>
+      </div>
+      <div class="card">
+        <img src="https://img.freepik.com/free-vector/business-consulting-concept-illustration_114360-9444.jpg" alt="Technical Consulting">
+        <h3>Konsultasi & Automasi Bisnis Digital</h3>
+        <p>Layanan bimbingan dan dukungan teknis untuk membantu bisnis bertransformasi ke arah digital dan meningkatkan efisiensi kerja dengan sistem otomatis.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="products" class="section">
+    <h2 class="section-title">Products</h2>
+    <div class="grid">
+      <div class="card">
+        <h3><a href="https://class-by-masterb.masterb.id/">All your Ecourse is here</a></h3>
+        <p>"Apakah Anda merasa kewalahan dengan manajemen kelas yang kurang efektif atau mencari cara baru untuk meningkatkan pembelajaran? Class by MasterB hadir sebagai solusi pintar untuk mengubah pengalaman belajar Anda!"</p>
+      </div>
+      <div class="card">
+        <h3><a href="https://insight-by-masterb.masterb.id/">All your Insight is here</a></h3>
+        <p>Apakah Anda sering kewalahan dengan banyaknya eBook yang berserakan di berbagai perangkat atau merasa kesulitan mengelola koleksi buku fisik yang semakin berat? Brand Insight by MysterB hadir sebagai solusi cerdas untuk masalah Anda!</p>
+      </div>
+      <div class="card">
+        <h3><a href="https://framework-by-masterb.masterb.id/">All your Master Plan is here</a></h3>
+        <p>Apakah Anda merasa bingung dengan banyaknya langkah yang harus diambil untuk mencapai kesuksesan atau kesulitan memanfaatkan peluang yang ada? Framework By MasterB hadir sebagai solusi cerdas untuk Anda!</p>
+      </div>
+      <div class="card">
+        <h3><a href="https://training.masterb.id/">All Your level up is here</a></h3>
+        <p>Apakah Anda sering kewalahan dengan banyaknya materi pelatihan yang tersebar di berbagai perangkat atau merasa kesulitan mengelola informasi yang semakin kompleks? Public Training bersama MasterB hadir sebagai solusi cerdas untuk kebutuhan pengembangan diri Anda!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="press" class="section">
+    <h2 class="section-title">Keuntungan</h2>
+    <p>MasterB menyediakan layanan lengkap dalam satu atap mulai dari riset pasar, branding, pembuatan website/aplikasi, hingga strategi pemasaran digital. Semua proses dirancang saling terhubung agar hasil akhir lebih konsisten, efisien, dan terukur.
+
+Keuntungannya:
+Klien tidak perlu mencari vendor berbeda untuk tiap kebutuhan digital. Dengan satu tim yang terkoordinasi, proyek berjalan lebih cepat, biaya lebih efisien, dan komunikasi jadi lebih mudah.</p>
+  </section>
+
+  <section id="testimonials" class="testimonials section">
+    <h2 class="section-title">Testimonials</h2>
+    <div class="grid">
+      <div class="testimonial-card">
+        <p>“Kami merasa sangat terbantu dengan layanan branding dari MasterB. Logo dan identitas visualnya benar-benar menggambarkan nilai perusahaan kami.”</p>
+        <strong>- Rina Setiawan</strong>
+      </div>
+      <div class="testimonial-card">
+        <p>“Tim MasterB sangat komunikatif dan cepat dalam menanggapi revisi. Hasil digital marketing-nya pun terbukti menaikkan traffic dan konversi kami."</p>
+        <strong>- Farhan Yusuf</strong>
+      </div>
+      <div class="testimonial-card">
+        <p>“Kami awalnya ragu untuk pindah ke sistem digital, tapi berkat konsultasi dari MasterB, sekarang bisnis kami jauh lebih efisien dan otomatis.”</p>
+        <strong>- Dewi Maharani</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+    <p>Email   | masterb.ofc@gmail.com </p>
+    <p>Phone1  | +62 821-2028-2823 (Kang Abell)</p>
+    <p>Phone2  | +62 815-7206-1061 (Admin Master B)</p>
+    <p>Address | Jl. Pamanukan No.12, Antapani Kulon,<br> Kec. Antapani, Kota Bandung, Jawa Barat 40291 </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Create Software Solution</p>
+  </footer>
+
+  <script>
+    const micIcon = document.getElementById('micIcon');
+    window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY;
+      const offsetX = Math.sin(scrollY * 0.01) * 40; // Geser kiri-kanan sinusoidal
+      micIcon.style.transform = `translate(${offsetX}px, ${scrollY * 0.2}px) rotate(${scrollY * 0.3}deg)`;
+    });
+  </script>
+</body>
+
+</html>
